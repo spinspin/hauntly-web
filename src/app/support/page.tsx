@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     description:
       "Get help with Hauntly. Find answers to frequently asked questions and contact our support team.",
   },
+  alternates: {
+    canonical: "https://hauntly.me/support",
+  },
 };
 
 const faqs = [
@@ -81,6 +84,31 @@ export default function SupportPage() {
         }}
       />
 
+      {/* BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://hauntly.me",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Support",
+                item: "https://hauntly.me/support",
+              },
+            ],
+          }),
+        }}
+      />
+
       <section className="py-16 sm:py-24">
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
           <div className="text-center mb-16">
@@ -142,12 +170,14 @@ export default function SupportPage() {
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
                 href="#"
+                rel="nofollow"
                 className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg border border-border text-sm text-text-secondary hover:text-accent hover:border-accent/30 transition-all"
               >
                 Update on App Store
               </a>
               <a
                 href="#"
+                rel="nofollow"
                 className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg border border-border text-sm text-text-secondary hover:text-accent hover:border-accent/30 transition-all"
               >
                 Update on Google Play

@@ -6,6 +6,7 @@ import Image from "next/image";
 
 const navLinks = [
   { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
   { href: "/news", label: "News" },
   { href: "/support", label: "Support" },
   { href: "/privacy", label: "Privacy" },
@@ -22,7 +23,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2 group">
             <Image
               src="/logo3.png"
-              alt="Hauntly"
+              alt="Hauntly ghost hunting app logo"
               width={40}
               height={40}
               className="group-hover:brightness-125 transition-all"

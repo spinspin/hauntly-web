@@ -10,6 +10,7 @@ export interface NewsPost {
   slug: string;
   title: string;
   date: string;
+  dateModified?: string;
   excerpt: string;
   content: string;
 }
@@ -18,6 +19,7 @@ export interface NewsPostMeta {
   slug: string;
   title: string;
   date: string;
+  dateModified?: string;
   excerpt: string;
 }
 
@@ -37,6 +39,7 @@ export function getAllNewsPosts(): NewsPostMeta[] {
         slug,
         title: data.title as string,
         date: data.date as string,
+        dateModified: (data.dateModified as string) || undefined,
         excerpt: data.excerpt as string,
       };
     });
@@ -59,6 +62,7 @@ export async function getNewsPost(slug: string): Promise<NewsPost | null> {
     slug,
     title: data.title as string,
     date: data.date as string,
+    dateModified: (data.dateModified as string) || undefined,
     excerpt: data.excerpt as string,
     content: contentHtml,
   };

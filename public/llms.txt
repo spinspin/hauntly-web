@@ -1,30 +1,47 @@
 # Hauntly — Ghost Hunting App
 
-> Hauntly is a mobile application for paranormal investigation and ghost hunting. Available on iOS and Android.
+> Hauntly is a mobile application for paranormal investigation and ghost hunting, developed by Frumpets Ltd. Available on iOS and Android.
 
-## About Hauntly
-Hauntly is the ultimate ghost hunting companion app. It provides tools for detecting and documenting paranormal activity using your smartphone's built-in sensors.
+## About
+Hauntly is the ultimate ghost hunting companion app. It provides professional-grade tools for detecting and documenting paranormal activity using your smartphone's built-in sensors. The app combines EMF detection, EVP recording and analysis, photo/video capture, and a comprehensive investigation journal into a single, intuitive interface.
 
 ## Key Features
-- EMF Detection: Uses the phone's magnetometer to detect electromagnetic field anomalies
-- EVP Recorder: Captures and analyzes electronic voice phenomena with AI-enhanced audio processing
-- Spirit Radar: Proprietary scanning system that maps paranormal hotspots in real-time
-- Investigation Journal: Document investigations with photos, notes, and automatic environmental data logging
-- Night Vision Camera: Record video investigations in complete darkness
-- Collaborative Investigations: Share real-time sensor data with team members (Pro feature)
+- **EMF Detection**: Uses the phone's magnetometer to detect electromagnetic field anomalies in real time
+- **EVP Recorder & Analyzer**: Captures electronic voice phenomena with multiple background sounds. Pro includes spectrogram, frequency spectrum, EQ, filters, reverse playback, and A-B looping
+- **Photo & Video Capture**: Record investigations with paranormal-themed visual effects and an annotation editor
+- **Ghost Hunt Journal**: Document every investigation with notes, timestamps, environmental data, and a searchable timeline
+- **Night Vision Camera**: Record video investigations in complete darkness
+- **Collaborative Investigations**: Share real-time sensor data with team members (Pro feature)
+
+## Pricing
+- **Free**: Core ghost hunting tools, EVP recording (15 seconds), 2 background sounds, basic waveform, EMF detection, photo/video, journal
+- **Pro (subscription)**: Extended recording (15 minutes), 8 background sounds, full EVP Analyzer suite, PDF export, ad-free
+
+## Technical Details
+- Platform: iOS and Android
+- Sensors used: Magnetometer (EMF), Microphone (EVP), Camera (photo/video)
+- Data storage: All user data stored locally on device, never uploaded to servers
+- Third-party services: Google AdMob (ads, free tier only), Sentry (crash reporting)
+
+## Company
+- Developer: Frumpets Ltd
+- Founded: 2025
+- Location: United Kingdom
+- Website: https://hauntly.me
 
 ## Pages
-- Home: https://hauntly.app/
-- News & Updates: https://hauntly.app/news
-- Support & FAQ: https://hauntly.app/support
-- Privacy Policy: https://hauntly.app/privacy
-- Terms of Service: https://hauntly.app/terms
+- Home: https://hauntly.me/
+- About: https://hauntly.me/about
+- News & Updates: https://hauntly.me/news
+- Support & FAQ: https://hauntly.me/support
+- Privacy Policy: https://hauntly.me/privacy
+- Terms of Service: https://hauntly.me/terms
 
-## Download
-- App Store: Coming soon
-- Google Play: Coming soon
+## Extended Information
+- See: https://hauntly.me/llms-full.txt
 
 ## Contact
-- Support: support@hauntly.app
-- Privacy: privacy@hauntly.app
-- Legal: legal@hauntly.app
+- General: hello@frumpets.co
+- Support: support@hauntly.me
+- Privacy: privacy@hauntly.me
+- Legal: legal@hauntly.me

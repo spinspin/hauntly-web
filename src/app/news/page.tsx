@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     description:
       "Stay updated with the latest Hauntly news, app updates, ghost hunting tips, and paranormal investigation guides.",
   },
+  alternates: {
+    canonical: "https://hauntly.me/news",
+  },
 };
 
 export default function NewsPage() {
@@ -26,12 +29,41 @@ export default function NewsPage() {
             "@type": "Blog",
             name: "Hauntly News",
             description: "Ghost hunting tips, app updates, and paranormal investigation guides.",
-            url: "https://hauntly.app/news",
+            url: "https://hauntly.me/news",
             publisher: {
               "@type": "Organization",
               name: "Hauntly",
-              url: "https://hauntly.app",
+              url: "https://hauntly.me",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://hauntly.me/logo3.png",
+              },
             },
+          }),
+        }}
+      />
+
+      {/* BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://hauntly.me",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "News",
+                item: "https://hauntly.me/news",
+              },
+            ],
           }),
         }}
       />

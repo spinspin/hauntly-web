@@ -53,7 +53,7 @@ export default function HomePage() {
 
   return (
     <>
-      {/* JSON-LD Structured Data */}
+      {/* SoftwareApplication Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -61,15 +61,64 @@ export default function HomePage() {
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
             name: "Hauntly",
+            url: "https://hauntly.me",
+            image: "https://hauntly.me/logo3.png",
             applicationCategory: "EntertainmentApplication",
             operatingSystem: "iOS, Android",
             description:
               "Ghost hunting companion app. Record and analyse EVP, detect EMF anomalies, capture photos with paranormal effects, and document your ghost hunts.",
+            author: {
+              "@type": "Organization",
+              name: "Frumpets Ltd",
+              url: "https://hauntly.me",
+            },
             offers: {
               "@type": "Offer",
               price: "0",
               priceCurrency: "USD",
             },
+            applicationSubCategory: "Paranormal Investigation",
+            featureList:
+              "EVP Recording & Analysis, EMF Detection, Photo & Video Capture, Ghost Hunt Journal, Night Vision Camera, Spirit Radar",
+          }),
+        }}
+      />
+
+      {/* WebSite Structured Data with SearchAction */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "Hauntly",
+            url: "https://hauntly.me",
+            description:
+              "Hauntly is the ultimate ghost hunting app for paranormal investigation.",
+            publisher: {
+              "@type": "Organization",
+              name: "Frumpets Ltd",
+              url: "https://hauntly.me",
+            },
+          }),
+        }}
+      />
+
+      {/* BreadcrumbList - Home */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://hauntly.me",
+              },
+            ],
           }),
         }}
       />
@@ -128,12 +177,14 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#"
+              rel="nofollow"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-accent text-background font-semibold hover:bg-accent-dark transition-all glow-accent hover:glow-accent-strong"
             >
               Download for iOS
             </a>
             <a
               href="#"
+              rel="nofollow"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl border-2 border-accent/30 text-accent font-semibold hover:bg-accent/10 transition-all"
             >
               Download for Android

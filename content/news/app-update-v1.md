@@ -1,6 +1,7 @@
 ---
 title: "Hauntly v1.2 — Night Vision Mode & Enhanced EVP Analysis"
 date: "2025-02-01"
+dateModified: "2025-02-01"
 excerpt: "Our biggest update yet brings night vision camera mode, improved EVP analysis with AI-powered voice detection, and a redesigned investigation dashboard."
 ---
 

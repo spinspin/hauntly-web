@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllNewsSlugs } from "@/lib/news";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://hauntly.app";
+  const baseUrl = "https://hauntly.me";
 
   const staticPages: MetadataRoute.Sitemap = [
     {
@@ -15,6 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/news`,
       lastModified: new Date(),
       changeFrequency: "daily",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/about`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
       priority: 0.8,
     },
     {

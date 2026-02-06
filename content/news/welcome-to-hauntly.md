@@ -1,6 +1,7 @@
 ---
 title: "Welcome to Hauntly — Your New Ghost Hunting Companion"
 date: "2025-01-15"
+dateModified: "2025-01-15"
 excerpt: "We're thrilled to introduce Hauntly, the most advanced ghost hunting app ever built. Detect, investigate, and document paranormal activity right from your phone."
 ---
 

@@ -26,6 +26,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: post.excerpt,
       type: "article",
       publishedTime: post.date,
+      modifiedTime: post.dateModified || post.date,
+      authors: ["Hauntly Team"],
+    },
+    alternates: {
+      canonical: `https://hauntly.me/news/${slug}`,
     },
   };
 }
@@ -38,6 +43,7 @@ export default async function NewsArticlePage({ params }: PageProps) {
 
   return (
     <>
+      {/* Article Structured Data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -47,15 +53,57 @@ export default async function NewsArticlePage({ params }: PageProps) {
             headline: post.title,
             description: post.excerpt,
             datePublished: post.date,
+            dateModified: post.dateModified || post.date,
+            author: {
+              "@type": "Organization",
+              name: "Hauntly Team",
+              url: "https://hauntly.me",
+            },
             publisher: {
               "@type": "Organization",
               name: "Hauntly",
-              url: "https://hauntly.app",
+              url: "https://hauntly.me",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://hauntly.me/logo3.png",
+              },
             },
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": `https://hauntly.app/news/${slug}`,
+              "@id": `https://hauntly.me/news/${slug}`,
             },
+            image: "https://hauntly.me/logo3.png",
+          }),
+        }}
+      />
+
+      {/* BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://hauntly.me",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "News",
+                item: "https://hauntly.me/news",
+              },
+              {
+                "@type": "ListItem",
+                position: 3,
+                name: post.title,
+                item: `https://hauntly.me/news/${slug}`,
+              },
+            ],
           }),
         }}
       />
@@ -83,6 +131,7 @@ export default async function NewsArticlePage({ params }: PageProps) {
             <h1 className="text-3xl sm:text-4xl font-bold text-text-primary mt-3">
               {post.title}
             </h1>
+            <p className="text-sm text-text-muted mt-2">By the Hauntly Team</p>
           </header>
 
           <div

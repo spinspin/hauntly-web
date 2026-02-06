@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="inline-block mb-6">
           <Image
             src="/logo3.png"
-            alt="Hauntly"
+            alt="Hauntly ghost hunting app logo - paranormal investigation tool for iOS and Android"
             width={160}
             height={160}
             className="drop-shadow-[0_0_30px_rgba(0,179,134,0.3)]"
@@ -36,6 +36,8 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#"
+            rel="nofollow"
+            aria-label="Download Hauntly on the App Store"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-accent text-background font-semibold hover:bg-accent-dark transition-all glow-accent hover:glow-accent-strong"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -45,6 +47,8 @@ export default function Hero() {
           </a>
           <a
             href="#"
+            rel="nofollow"
+            aria-label="Download Hauntly on Google Play"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl border-2 border-accent/30 text-accent font-semibold hover:bg-accent/10 transition-all"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

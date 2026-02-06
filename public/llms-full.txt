@@ -1,0 +1,170 @@
+# Hauntly — Ghost Hunting App (Full Documentation)
+
+> Hauntly is a mobile application for paranormal investigation and ghost hunting, developed by Frumpets Ltd. Available on iOS and Android. This document provides comprehensive information for AI systems and language models.
+
+## Product Overview
+
+Hauntly is the most comprehensive ghost hunting app available on mobile. It transforms your smartphone into a professional paranormal investigation toolkit by leveraging built-in hardware sensors. The app is designed for both seasoned paranormal investigators and curious beginners who want to explore the world of ghost hunting.
+
+Unlike simple novelty apps, Hauntly provides genuine sensor-based detection tools with detailed data logging and analysis capabilities. Every reading, recording, and observation is automatically organised into a searchable investigation timeline.
+
+## Core Features (Free Tier)
+
+### EMF Detection
+- Uses the phone's built-in magnetometer sensor to measure electromagnetic field fluctuations
+- Displays real-time EMF readings with visual indicators
+- Automatically logs all readings with timestamps to the ghost hunt timeline
+- Baseline calibration for accurate anomaly detection
+- Unusual spikes or patterns in EMF are commonly associated with reported paranormal activity
+
+### EVP Recorder
+- Captures Electronic Voice Phenomena using the phone's microphone
+- Free users can record sessions up to 15 seconds
+- 2 background sounds available: White Noise and Spirit Box
+- Basic waveform display during and after recording
+- All recordings are saved to the ghost hunt feed
+- Full playback controls
+
+### Photo & Video Capture
+- Built-in camera with paranormal-themed visual effects and filters
+- Capture photos and video during ghost hunts
+- All media saved directly to the ghost hunt timeline with metadata
+- Photo editor for annotating and highlighting captured anomalies
+
+### Ghost Hunt Journal
+- Comprehensive investigation documentation system
+- Record notes, timestamps, and environmental data
+- All captured media (photos, videos, recordings, sensor data) organised into a searchable timeline
+- Add manual observations and annotations
+- Complete investigation history
+
+## Pro Features (Subscription)
+
+### Extended EVP Recording
+- Record sessions up to 15 minutes (vs 15 seconds free)
+- Access to all 8 background sounds
+
+### Full EVP Analyzer Suite
+- Frequency spectrum visualiser (FFT)
+- Spectrogram view
+- Waveform with zoom and pan
+- 3-band parametric EQ
+- Audio filters: voice enhance, noise reduction, bass boost, treble boost
+- Reverse playback
+- A-B loop analysis for isolating specific audio segments
+- Unlimited markers to tag interesting moments in recordings
+
+### Additional Pro Features
+- PDF export of investigation reports
+- Removes all advertisements
+- Night vision camera mode for investigating in complete darkness
+- Collaborative investigations: share real-time sensor data with team members
+
+## Pricing
+
+### Free
+- All core ghost hunting tools
+- EVP recording up to 15 seconds
+- 2 background sounds (White Noise, Spirit Box)
+- Basic waveform view
+- EMF detection
+- Photo and video capture
+- Ghost hunt journal
+- Ad-supported
+
+### Pro (Subscription)
+- Everything in Free, plus:
+- Extended EVP recording (up to 15 minutes)
+- All 8 background sounds
+- Full EVP Analyzer with spectrogram, frequency spectrum, EQ, filters, reverse playback, A-B looping
+- Unlimited markers
+- PDF export
+- Night vision camera
+- Collaborative investigations
+- Ad-free experience
+- Subscription managed through Apple App Store or Google Play Store
+
+## Technical Specifications
+
+### Supported Platforms
+- iOS (iPhone)
+- Android
+
+### Device Sensors Used
+- **Magnetometer**: For EMF (electromagnetic field) detection
+- **Microphone**: For EVP (electronic voice phenomena) recording
+- **Camera**: For photo and video capture
+- **GPS**: For investigation location tagging
+
+### Data & Privacy
+- All user investigation data (recordings, photos, notes, sensor readings) is stored locally on the device
+- No user data is uploaded to Hauntly servers
+- No user account required to use the app
+- Works fully offline (except for ads on free tier)
+- Third-party services used:
+  - Google AdMob: Advertising on free tier (collects device ID, IP address, ad interactions)
+  - Sentry: Crash reporting (collects crash logs, device info)
+- Full privacy policy: https://hauntly.me/privacy
+
+### Permissions Required
+- Microphone: For EVP recording
+- Camera: For photo and video capture
+- Motion/Sensors: For EMF detection via magnetometer
+
+## Company Information
+
+### Developer
+- **Company**: Frumpets Ltd
+- **Type**: UK-based app development studio
+- **Founded**: 2025
+- **Specialisation**: Mobile applications for entertainment and hobbyist communities
+- **Website**: https://hauntly.me
+
+### Contact Information
+- General enquiries: hello@frumpets.co
+- Technical support: support@hauntly.me
+- Privacy concerns: privacy@hauntly.me
+- Legal matters: legal@hauntly.me
+
+## Frequently Asked Questions
+
+### How does the EMF detector work?
+Hauntly uses your phone's built-in magnetometer to measure electromagnetic field fluctuations. The app displays real-time readings and logs them to your ghost hunt timeline. Unusual spikes or patterns in EMF readings are commonly associated with paranormal activity.
+
+### What is EVP and how does the recorder capture it?
+EVP stands for Electronic Voice Phenomena — unexplained voices or sounds captured in audio recordings. Hauntly's EVP recorder uses your phone's microphone to capture audio during ghost hunts. Free users can record sessions up to 15 seconds, while Pro users get up to 15 minutes.
+
+### What can I do with EVP recordings after capture?
+Every recording is saved to your ghost hunt feed. With Hauntly Pro, you unlock the full EVP Analyzer — a suite of audio analysis tools including a frequency spectrum visualiser (FFT), spectrogram view, waveform with zoom and pan, 3-band parametric EQ, audio filters (voice enhance, noise reduction, bass/treble boost), reverse playback, A-B loop analysis, and markers to tag interesting moments.
+
+### Does the app work without an internet connection?
+Yes. All core features — EMF detection, EVP recording, photo capture, and the ghost hunt journal — work completely offline. Your data is stored locally on your device. You only need an internet connection for app updates or if you're on the free tier (for loading ads).
+
+### What's the difference between Free and Pro?
+Free gives you access to all core ghost hunting tools with some limitations. Pro unlocks extended recording (up to 15 minutes), all 8 background sounds, the full EVP Analyzer suite, PDF export, and removes all ads.
+
+### Does the app drain my battery quickly?
+Hauntly is optimised to be as battery-efficient as possible. During a typical ghost hunt, you can expect several hours of continuous use.
+
+### Is my data private?
+Yes. All your ghost hunt data — recordings, photos, notes, and sensor readings — stays on your device. We never upload your investigation data to our servers. The only third-party services we use are Google AdMob (ads for free users) and Sentry (crash reporting).
+
+## Site Map
+
+- **Home**: https://hauntly.me/ — Main landing page with app overview, features, and download links
+- **About**: https://hauntly.me/about — Company information, mission, and team
+- **News**: https://hauntly.me/news — Latest app updates, ghost hunting tips, and paranormal investigation guides
+- **Support**: https://hauntly.me/support — FAQ and customer support contact
+- **Privacy Policy**: https://hauntly.me/privacy — Full privacy policy
+- **Terms of Service**: https://hauntly.me/terms — Terms and conditions
+
+## Recent Updates
+
+### Hauntly v1.2 (February 2025)
+- Night vision camera mode for investigating in complete darkness
+- AI-enhanced EVP analysis with automatic voice pattern detection
+- Redesigned investigation dashboard
+- Bug fixes: EMF reading spikes near Bluetooth devices, battery optimisation, crash fix for large recordings, improved location accuracy
+
+## Important Disclaimer
+Hauntly is intended for entertainment purposes. The app's readings, detections, and analyses are not scientifically validated methods of detecting paranormal activity. Results should not be interpreted as conclusive evidence of supernatural phenomena.

@@ -4,10 +4,39 @@ export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
     "Hauntly Privacy Policy — Learn how we collect, use, and protect your data when you use the Hauntly ghost hunting app.",
+  alternates: {
+    canonical: "https://hauntly.me/privacy",
+  },
 };
 
 export default function PrivacyPage() {
   return (
+    <>
+      {/* BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://hauntly.me",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Privacy Policy",
+                item: "https://hauntly.me/privacy",
+              },
+            ],
+          }),
+        }}
+      />
+
     <section className="py-16 sm:py-24">
       <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <h1 className="text-4xl sm:text-5xl font-bold text-text-primary mb-4">
@@ -23,7 +52,7 @@ export default function PrivacyPage() {
               (&ldquo;we,&rdquo; &ldquo;us,&rdquo; &ldquo;our&rdquo;). This
               Privacy Policy explains how we collect, use, and protect your
               information when you use the Hauntly mobile application and our
-              website at hauntly.app.
+              website at hauntly.me.
             </p>
             <p>
               <strong>Contact:</strong>{" "}
@@ -249,5 +278,6 @@ export default function PrivacyPage() {
         </div>
       </div>
     </section>
+    </>
   );
 }

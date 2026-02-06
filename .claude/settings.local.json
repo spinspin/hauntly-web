@@ -12,7 +12,8 @@
       "Bash(npm run dev:*)",
       "Bash(gh auth:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)"
     ]
   }
 }

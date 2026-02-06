@@ -4,6 +4,7 @@ import Image from "next/image";
 const footerLinks = {
   app: [
     { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
     { href: "/news", label: "News" },
     { href: "/support", label: "Support" },
   ],
@@ -27,7 +28,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-4">
               <Image
                 src="/logo3.png"
-                alt="Hauntly"
+                alt="Hauntly ghost hunting app logo"
                 width={32}
                 height={32}
               />

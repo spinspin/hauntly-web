@@ -1,0 +1,7 @@
+# Hauntly Security Contact
+# https://securitytxt.org/
+
+Contact: mailto:hello@frumpets.co
+Preferred-Languages: en
+Canonical: https://hauntly.me/.well-known/security.txt
+Expires: 2027-02-06T00:00:00.000Z

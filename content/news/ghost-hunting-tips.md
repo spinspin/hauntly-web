@@ -1,6 +1,7 @@
 ---
 title: "5 Essential Ghost Hunting Tips for Beginners"
 date: "2025-01-25"
+dateModified: "2025-01-25"
 excerpt: "New to paranormal investigation? Here are five essential tips to help you get the most out of your ghost hunting experience with Hauntly."
 ---
 

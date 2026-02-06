@@ -4,10 +4,39 @@ export const metadata: Metadata = {
   title: "Terms of Service",
   description:
     "Hauntly Terms of Service — Read the terms and conditions for using the Hauntly ghost hunting app.",
+  alternates: {
+    canonical: "https://hauntly.me/terms",
+  },
 };
 
 export default function TermsPage() {
   return (
+    <>
+      {/* BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              {
+                "@type": "ListItem",
+                position: 1,
+                name: "Home",
+                item: "https://hauntly.me",
+              },
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: "Terms of Service",
+                item: "https://hauntly.me/terms",
+              },
+            ],
+          }),
+        }}
+      />
+
     <section className="py-16 sm:py-24">
       <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <h1 className="text-4xl sm:text-5xl font-bold text-text-primary mb-4">
@@ -20,7 +49,7 @@ export default function TermsPage() {
             <h2>1. Acceptance of Terms</h2>
             <p>
               By downloading, installing, or using the Hauntly mobile application
-              (the &ldquo;App&rdquo;) or accessing our website at hauntly.app
+              (the &ldquo;App&rdquo;) or accessing our website at hauntly.me
               (the &ldquo;Site&rdquo;), you agree to be bound by these Terms of
               Service (&ldquo;Terms&rdquo;). If you do not agree to these Terms,
               do not use the App or Site.
@@ -180,5 +209,6 @@ export default function TermsPage() {
         </div>
       </div>
     </section>
+    </>
   );
 }
