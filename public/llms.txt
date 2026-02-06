@@ -1,0 +1,30 @@
+# Hauntly — Ghost Hunting App
+
+> Hauntly is a mobile application for paranormal investigation and ghost hunting. Available on iOS and Android.
+
+## About Hauntly
+Hauntly is the ultimate ghost hunting companion app. It provides tools for detecting and documenting paranormal activity using your smartphone's built-in sensors.
+
+## Key Features
+- EMF Detection: Uses the phone's magnetometer to detect electromagnetic field anomalies
+- EVP Recorder: Captures and analyzes electronic voice phenomena with AI-enhanced audio processing
+- Spirit Radar: Proprietary scanning system that maps paranormal hotspots in real-time
+- Investigation Journal: Document investigations with photos, notes, and automatic environmental data logging
+- Night Vision Camera: Record video investigations in complete darkness
+- Collaborative Investigations: Share real-time sensor data with team members (Pro feature)
+
+## Pages
+- Home: https://hauntly.app/
+- News & Updates: https://hauntly.app/news
+- Support & FAQ: https://hauntly.app/support
+- Privacy Policy: https://hauntly.app/privacy
+- Terms of Service: https://hauntly.app/terms
+
+## Download
+- App Store: Coming soon
+- Google Play: Coming soon
+
+## Contact
+- Support: support@hauntly.app
+- Privacy: privacy@hauntly.app
+- Legal: legal@hauntly.app

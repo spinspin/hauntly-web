@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+@theme {
+  /* Night Operations palette - matching Flutter app */
+  --color-background: #101216;
+  --color-surface: #1A1D23;
+  --color-surface-light: #252930;
+  --color-accent: #00B386;
+  --color-accent-dark: #00B894;
+  --color-accent-play: #10B981;
+  --color-text-primary: #F4F5F7;
+  --color-text-secondary: #9CA3AF;
+  --color-text-muted: #6B7280;
+  --color-border: #3A3F47;
+
+  /* Status colors */
+  --color-recording: #F44336;
+  --color-warning: #FF9800;
+  --color-success: #4CAF50;
+  --color-info: #2196F3;
+  --color-error: #F44336;
+  --color-favorite: #FFA000;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
+
+/* Glow effects - updated for #00B386 accent */
+.glow-accent {
+  box-shadow: 0 0 20px rgba(0, 179, 134, 0.15), 0 0 60px rgba(0, 179, 134, 0.05);
+}
+
+.glow-accent-strong {
+  box-shadow: 0 0 20px rgba(0, 179, 134, 0.3), 0 0 60px rgba(0, 179, 134, 0.1);
+}
+
+.text-glow-accent {
+  text-shadow: 0 0 20px rgba(0, 179, 134, 0.5), 0 0 40px rgba(0, 179, 134, 0.2);
+}
+
+/* Ghost floating animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-float-slow {
+  animation: float-slow 5s ease-in-out infinite;
+}
+
+/* Pulse glow animation */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 1; }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+/* Prose styling for markdown content */
+.prose-hauntly {
+  color: var(--color-text-secondary);
+}
+
+.prose-hauntly h1,
+.prose-hauntly h2,
+.prose-hauntly h3,
+.prose-hauntly h4 {
+  color: var(--color-text-primary);
+  font-weight: 700;
+}
+
+.prose-hauntly h1 { font-size: 2rem; margin-top: 2rem; margin-bottom: 1rem; }
+.prose-hauntly h2 { font-size: 1.5rem; margin-top: 1.75rem; margin-bottom: 0.75rem; }
+.prose-hauntly h3 { font-size: 1.25rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+
+.prose-hauntly p {
+  margin-bottom: 1rem;
+  line-height: 1.75;
+}
+
+.prose-hauntly a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.prose-hauntly a:hover {
+  color: var(--color-accent-dark);
+}
+
+.prose-hauntly ul, .prose-hauntly ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.prose-hauntly li {
+  margin-bottom: 0.5rem;
+}
+
+.prose-hauntly ul li { list-style-type: disc; }
+.prose-hauntly ol li { list-style-type: decimal; }
+
+.prose-hauntly blockquote {
+  border-left: 3px solid var(--color-accent);
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+  color: var(--color-text-muted);
+}
+
+.prose-hauntly code {
+  background-color: var(--color-surface-light);
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.prose-hauntly pre {
+  background-color: var(--color-surface);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+
+.prose-hauntly img {
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.prose-hauntly hr {
+  border-color: var(--color-border);
+  margin: 2rem 0;
+}
