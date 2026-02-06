@@ -1,7 +1,5 @@
 import Hero from "@/components/Hero";
 import FeatureCard from "@/components/FeatureCard";
-import NewsCard from "@/components/NewsCard";
-import { getAllNewsPosts } from "@/lib/news";
 
 const features = [
   {
@@ -49,8 +47,6 @@ const features = [
 
 
 export default function HomePage() {
-  const latestPosts = getAllNewsPosts().slice(0, 3);
-
   return (
     <>
       {/* SoftwareApplication Structured Data */}
@@ -143,27 +139,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Latest News Section */}
-      {latestPosts.length > 0 && (
-        <section className="py-20 sm:py-28 border-t border-border">
-          <div className="mx-auto max-w-6xl px-4 sm:px-6">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl sm:text-4xl font-bold text-text-primary mb-4">
-                Latest News
-              </h2>
-              <p className="text-text-secondary max-w-2xl mx-auto">
-                Stay updated with the latest Hauntly news and ghost hunting tips.
-              </p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {latestPosts.map((post) => (
-                <NewsCard key={post.slug} {...post} />
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* CTA Section */}
       <section className="py-20 sm:py-28 border-t border-border">
