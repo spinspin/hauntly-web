@@ -56,7 +56,7 @@ export default function PrivacyPage() {
             </p>
             <p>
               <strong>Contact:</strong>{" "}
-              <a href="mailto:hello@frumpets.co">hello@frumpets.co</a>
+              <a href="mailto:support@hauntly.me">support@hauntly.me</a>
             </p>
           </div>
 
@@ -96,6 +96,11 @@ export default function PrivacyPage() {
                     <td className="py-3 pr-4">Sentry</td>
                     <td className="py-3 pr-4">Crash logs, device info, app performance</td>
                     <td className="py-3">Bug fixing</td>
+                  </tr>
+                  <tr className="border-b border-border/50">
+                    <td className="py-3 pr-4">RevenueCat</td>
+                    <td className="py-3 pr-4">Anonymous app user ID, purchase history, subscription status</td>
+                    <td className="py-3">Subscription management</td>
                   </tr>
                 </tbody>
               </table>
@@ -154,7 +159,38 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2>5. Device Permissions</h2>
+            <h2>5. Subscription Management (RevenueCat)</h2>
+            <p>
+              We use RevenueCat to manage Hauntly Pro subscriptions and
+              in-app purchases. RevenueCat collects:
+            </p>
+            <ul>
+              <li>An anonymous app user ID (not linked to your identity)</li>
+              <li>Purchase and subscription history</li>
+              <li>Subscription status (active, expired, trial)</li>
+              <li>Device platform (iOS or Android)</li>
+            </ul>
+            <p>
+              RevenueCat does not collect your name, email, or any personal
+              contact information. All payment processing is handled by the
+              Apple App Store or Google Play Store — we never see or store
+              your payment details.
+            </p>
+            <p>
+              For more information, see{" "}
+              <a
+                href="https://www.revenuecat.com/privacy/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                RevenueCat&apos;s privacy policy
+              </a>
+              .
+            </p>
+          </div>
+
+          <div>
+            <h2>6. Device Permissions</h2>
             <div className="overflow-x-auto my-4">
               <table className="w-full text-sm border-collapse">
                 <thead>
@@ -186,7 +222,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2>6. Children&apos;s Privacy</h2>
+            <h2>7. Children&apos;s Privacy</h2>
             <p>
               Hauntly is not directed at children under 13 years of age. We do
               not knowingly collect personal information from children under 13.
@@ -196,7 +232,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2>7. Your Rights</h2>
+            <h2>8. Your Rights</h2>
             <p>
               We do not collect or store any personal data on our servers. All
               your ghost hunt data stays on your device and is fully under your
@@ -204,8 +240,8 @@ export default function PrivacyPage() {
               clearing app data, or uninstalling the App.
             </p>
             <p>
-              For data collected by third-party services (Google AdMob and
-              Sentry), you can exercise your rights directly:
+              For data collected by third-party services (Google AdMob,
+              Sentry, and RevenueCat), you can exercise your rights directly:
             </p>
             <ul>
               <li>
@@ -223,15 +259,20 @@ export default function PrivacyPage() {
                 <strong>Crash data (Sentry):</strong> Automatically deleted after
                 90 days. This data is anonymous and cannot identify you.
               </li>
+              <li>
+                <strong>Subscription data (RevenueCat):</strong> Anonymous and
+                linked only to a random app user ID. You can manage or cancel
+                subscriptions through your device&apos;s app store settings.
+              </li>
             </ul>
             <p>
               If you have any questions or concerns, contact us at{" "}
-              <a href="mailto:hello@frumpets.co">hello@frumpets.co</a>.
+              <a href="mailto:support@hauntly.me">support@hauntly.me</a>.
             </p>
           </div>
 
           <div>
-            <h2>8. Data Retention</h2>
+            <h2>9. Data Retention</h2>
             <ul>
               <li>
                 <strong>Local app data:</strong> Stored until you delete it or
@@ -244,11 +285,16 @@ export default function PrivacyPage() {
                 <strong>Ad data:</strong> Subject to Google&apos;s retention
                 policies
               </li>
+              <li>
+                <strong>Subscription data:</strong> Retained by RevenueCat
+                while your subscription is active, subject to RevenueCat&apos;s
+                retention policies
+              </li>
             </ul>
           </div>
 
           <div>
-            <h2>9. Security</h2>
+            <h2>10. Security</h2>
             <p>
               All data transmitted to third-party services uses TLS encryption.
               Your ghost hunt data (recordings, photos, notes) stays on your
@@ -257,7 +303,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2>10. Changes to This Policy</h2>
+            <h2>11. Changes to This Policy</h2>
             <p>
               We may update this Privacy Policy from time to time. We will notify
               you of any material changes by posting the new Privacy Policy in
@@ -268,11 +314,11 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2>11. Contact Us</h2>
+            <h2>12. Contact Us</h2>
             <p>
               If you have questions about this Privacy Policy, please contact us
               at{" "}
-              <a href="mailto:hello@frumpets.co">hello@frumpets.co</a>.
+              <a href="mailto:support@hauntly.me">support@hauntly.me</a>.
             </p>
           </div>
         </div>

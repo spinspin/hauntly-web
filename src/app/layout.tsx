@@ -96,7 +96,7 @@ export default function RootLayout({
               email: "hello@frumpets.co",
               contactPoint: {
                 "@type": "ContactPoint",
-                email: "hello@frumpets.co",
+                email: "support@hauntly.me",
                 contactType: "customer support",
                 availableLanguage: "English",
               },

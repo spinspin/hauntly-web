@@ -203,7 +203,7 @@ export default function TermsPage() {
             <h2>12. Contact</h2>
             <p>
               For questions about these Terms, please contact us at{" "}
-              <a href="mailto:hello@frumpets.co">hello@frumpets.co</a>.
+              <a href="mailto:support@hauntly.me">support@hauntly.me</a>.
             </p>
           </div>
         </div>

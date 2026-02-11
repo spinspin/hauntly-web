@@ -54,7 +54,7 @@ const faqs = [
   {
     question: "How do I report a bug or suggest a feature?",
     answer:
-      "We'd love to hear from you! Send bug reports and feature suggestions to hello@frumpets.co. Please include your device model, OS version, and a description of the issue or idea. You can also reach us through the support button below.",
+      "We'd love to hear from you! Send bug reports and feature suggestions to support@hauntly.me. Please include your device model, OS version, and a description of the issue or idea. You can also reach us through the support button below.",
   },
   {
     question: "Is my data private?",
@@ -142,7 +142,7 @@ export default function SupportPage() {
               as soon as possible.
             </p>
             <a
-              href="mailto:hello@frumpets.co"
+              href="mailto:support@hauntly.me"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-accent text-background font-semibold hover:bg-accent-dim transition-all glow-accent hover:glow-accent-strong"
             >
               <svg
@@ -158,7 +158,7 @@ export default function SupportPage() {
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 />
               </svg>
-              hello@frumpets.co
+              support@hauntly.me
             </a>
           </div>
 
