@@ -196,10 +196,6 @@ export default function AboutPage() {
                   <strong>Support:</strong>{" "}
                   <a href="mailto:support@hauntly.me">support@hauntly.me</a>
                 </li>
-                <li>
-                  <strong>Privacy:</strong>{" "}
-                  <a href="mailto:privacy@hauntly.me">privacy@hauntly.me</a>
-                </li>
               </ul>
             </div>
           </div>
