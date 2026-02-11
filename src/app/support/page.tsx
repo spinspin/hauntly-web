@@ -19,12 +19,12 @@ const faqs = [
   {
     question: "How does the EMF detector work?",
     answer:
-      "Hauntly uses your phone's built-in magnetometer to measure electromagnetic field fluctuations. The app displays real-time readings and logs them to your ghost hunt timeline. Unusual spikes or patterns in EMF readings are commonly associated with paranormal activity.",
+      "Hauntly uses your phone's built-in magnetometer to measure electromagnetic field fluctuations. The app displays real-time readings, tracks peaks and minimums, and logs them to your ghost hunt feed.",
   },
   {
     question: "What is EVP and how does the recorder capture it?",
     answer:
-      "EVP stands for Electronic Voice Phenomena — unexplained voices or sounds captured in audio recordings. Hauntly's EVP recorder uses your phone's microphone to capture audio during ghost hunts. Free users can record sessions up to 15 seconds, while Pro users get up to 15 minutes. You can choose from multiple background sounds including White Noise and Spirit Box to enhance your sessions.",
+      "EVP stands for Electronic Voice Phenomena — unexplained voices or sounds captured in audio recordings. Hauntly's EVP recorder uses your phone's microphone to capture audio during ghost hunts. Free users can record sessions up to 30 seconds, while Pro users get up to 15 minutes. You can choose from multiple background sounds including White Noise and Vocal Static to enhance your sessions.",
   },
   {
     question: "What can I do with EVP recordings after capture?",
@@ -32,9 +32,9 @@ const faqs = [
       "Every recording is saved to your ghost hunt feed. With Hauntly Pro, you unlock the full EVP Analyzer — a suite of audio analysis tools including a frequency spectrum visualiser (FFT), spectrogram view, waveform with zoom and pan, 3-band parametric EQ, audio filters (voice enhance, noise reduction, bass/treble boost), reverse playback, A-B loop analysis, and markers to tag interesting moments.",
   },
   {
-    question: "What photo and video features does Hauntly have?",
+    question: "What photo features does Hauntly have?",
     answer:
-      "Hauntly includes a built-in camera with paranormal-themed visual effects and filters. You can capture photos and video during ghost hunts, and all media is saved directly to your ghost hunt timeline. There's also a photo editor for annotating and highlighting anything unusual you've captured.",
+      "Hauntly includes a built-in camera with visual effects and filters like Film Grain, Static, Ectoplasm, and Orbs. You can also enable Night Vision for low-light viewing or SLS to detect body outlines in real time. All photos are saved directly to your ghost hunt feed.",
   },
   {
     question: "Does the app work without an internet connection?",
@@ -44,7 +44,7 @@ const faqs = [
   {
     question: "What's the difference between Free and Pro?",
     answer:
-      "Free gives you access to all core ghost hunting tools: EVP recording (15 seconds), 2 background sounds (White Noise, Spirit Box), basic waveform view, EMF detection, photo/video capture, and the ghost hunt journal. Pro unlocks extended recording (up to 15 minutes), all 8 background sounds, the full EVP Analyzer with spectrogram, frequency spectrum, EQ, audio filters, reverse playback, A-B looping, unlimited markers, PDF export, and removes all ads. You can upgrade to Pro directly from within the app.",
+      "Free gives you access to all core ghost hunting tools: EVP recording (30 seconds), 2 background sounds (White Noise, Vocal Static), basic waveform view, EMF detection, photo capture, and the ghost hunt journal. Pro unlocks extended recording (up to 15 minutes), all 11 background sounds, the full EVP Analyzer with spectrogram, frequency spectrum, EQ, audio filters, reverse playback, A-B looping, unlimited markers, Night Vision, SLS detection, all camera effects, PDF export, and removes all ads.",
   },
   {
     question: "Does the app drain my battery quickly?",
@@ -59,7 +59,7 @@ const faqs = [
   {
     question: "Is my data private?",
     answer:
-      "Yes. All your ghost hunt data — recordings, photos, notes, and sensor readings — stays on your device. We never upload your investigation data to our servers. The only third-party services we use are Google AdMob (ads for free users) and Sentry (crash reporting). See our Privacy Policy for full details.",
+      "Yes. All your ghost hunt data — recordings, photos, notes, and sensor readings — stays on your device. We never upload your ghost hunt data to our servers. The only third-party services we use are Google AdMob (ads for free users) and Sentry (crash reporting). See our Privacy Policy for full details.",
   },
 ];
 
