@@ -13,8 +13,8 @@ const footerLinks = {
     { href: "/terms", label: "Terms of Service" },
   ],
   download: [
-    { href: "#", label: "App Store" },
-    { href: "#", label: "Google Play" },
+    { href: "#", label: "App Store — Coming Soon" },
+    { href: "https://play.google.com/store/apps/details?id=com.frumpets.hauntly", label: "Google Play" },
   ],
 };
 

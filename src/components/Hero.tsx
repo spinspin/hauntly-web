@@ -34,19 +34,17 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
-            href="#"
-            rel="nofollow"
-            aria-label="Download Hauntly on the App Store"
-            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-accent text-background font-semibold hover:bg-accent-dark transition-all glow-accent hover:glow-accent-strong"
+          <span
+            aria-label="Hauntly on the App Store — Coming Soon"
+            className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-accent/20 text-accent/60 font-semibold cursor-default"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
               <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.1 22C7.79 22.05 6.8 20.68 5.96 19.47C4.25 16.56 2.93 11.3 4.7 7.72C5.57 5.94 7.36 4.86 9.28 4.84C10.56 4.81 11.78 5.7 12.58 5.7C13.38 5.7 14.85 4.63 16.4 4.81C17.04 4.84 18.82 5.08 19.92 6.7C19.84 6.75 17.71 7.97 17.73 10.54C17.76 13.61 20.42 14.58 20.45 14.59C20.43 14.66 20.05 15.99 19.1 17.36L18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/>
             </svg>
-            App Store
-          </a>
+            App Store — Coming Soon
+          </span>
           <a
-            href="#"
+            href="https://play.google.com/store/apps/details?id=com.frumpets.hauntly"
             rel="nofollow"
             aria-label="Download Hauntly on Google Play"
             className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl border-2 border-accent/30 text-accent font-semibold hover:bg-accent/10 transition-all"

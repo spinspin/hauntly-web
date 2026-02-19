@@ -168,15 +168,13 @@ export default function SupportPage() {
               Make sure you&apos;re running the latest version of Hauntly:
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
-              <a
-                href="#"
-                rel="nofollow"
-                className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg border border-border text-sm text-text-secondary hover:text-accent hover:border-accent/30 transition-all"
+              <span
+                className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg border border-border text-sm text-text-muted cursor-default"
               >
-                Update on App Store
-              </a>
+                App Store — Coming Soon
+              </span>
               <a
-                href="#"
+                href="https://play.google.com/store/apps/details?id=com.frumpets.hauntly"
                 rel="nofollow"
                 className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-lg border border-border text-sm text-text-secondary hover:text-accent hover:border-accent/30 transition-all"
               >
