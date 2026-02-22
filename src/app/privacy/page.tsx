@@ -98,6 +98,11 @@ export default function PrivacyPage() {
                     <td className="py-3">Bug fixing</td>
                   </tr>
                   <tr className="border-b border-border/50">
+                    <td className="py-3 pr-4">Firebase Analytics</td>
+                    <td className="py-3 pr-4">Anonymous usage data, screen views, device info</td>
+                    <td className="py-3">App analytics</td>
+                  </tr>
+                  <tr className="border-b border-border/50">
                     <td className="py-3 pr-4">RevenueCat</td>
                     <td className="py-3 pr-4">Anonymous app user ID, purchase history, subscription status</td>
                     <td className="py-3">Subscription management</td>
@@ -159,7 +164,36 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2>5. Subscription Management (RevenueCat)</h2>
+            <h2>5. Analytics (Firebase Analytics)</h2>
+            <p>
+              We use Firebase Analytics, provided by Google, to understand how
+              users interact with the App. This helps us improve features and
+              fix usability issues. Firebase Analytics collects:
+            </p>
+            <ul>
+              <li>Screen views and feature usage (e.g. which tools you use most)</li>
+              <li>Session duration and frequency</li>
+              <li>Device type, OS version, and general location (country/region)</li>
+              <li>App events (e.g. starting a ghost hunt, opening the camera)</li>
+            </ul>
+            <p>
+              This data is anonymous and cannot be used to identify you
+              personally. No recordings, photos, or personal content is ever
+              sent to Firebase. You can learn more about how Google handles
+              analytics data in{" "}
+              <a
+                href="https://policies.google.com/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Google&apos;s Privacy Policy
+              </a>
+              .
+            </p>
+          </div>
+
+          <div>
+            <h2>6. Subscription Management (RevenueCat)</h2>
             <p>
               We use RevenueCat to manage Hauntly Pro subscriptions and
               in-app purchases. RevenueCat collects:
@@ -190,7 +224,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2>6. Device Permissions</h2>
+            <h2>7. Device Permissions</h2>
             <div className="overflow-x-auto my-4">
               <table className="w-full text-sm border-collapse">
                 <thead>
@@ -222,7 +256,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2>7. Children&apos;s Privacy</h2>
+            <h2>8. Children&apos;s Privacy</h2>
             <p>
               Hauntly is not directed at children under 13 years of age. We do
               not knowingly collect personal information from children under 13.
@@ -232,7 +266,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2>8. Your Rights</h2>
+            <h2>9. Your Rights</h2>
             <p>
               We do not collect or store any personal data on our servers. All
               your ghost hunt data stays on your device and is fully under your
@@ -241,7 +275,8 @@ export default function PrivacyPage() {
             </p>
             <p>
               For data collected by third-party services (Google AdMob,
-              Sentry, and RevenueCat), you can exercise your rights directly:
+              Firebase Analytics, Sentry, and RevenueCat), you can exercise
+              your rights directly:
             </p>
             <ul>
               <li>
@@ -254,6 +289,11 @@ export default function PrivacyPage() {
                 >
                   adssettings.google.com
                 </a>
+              </li>
+              <li>
+                <strong>Analytics data (Firebase):</strong> Anonymous and
+                aggregated. You can reset your advertising ID in your
+                device&apos;s settings to disassociate future data.
               </li>
               <li>
                 <strong>Crash data (Sentry):</strong> Automatically deleted after
@@ -272,7 +312,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2>9. Data Retention</h2>
+            <h2>10. Data Retention</h2>
             <ul>
               <li>
                 <strong>Local app data:</strong> Stored until you delete it or
@@ -286,6 +326,10 @@ export default function PrivacyPage() {
                 policies
               </li>
               <li>
+                <strong>Analytics data:</strong> Retained by Firebase for 14
+                months, then automatically deleted
+              </li>
+              <li>
                 <strong>Subscription data:</strong> Retained by RevenueCat
                 while your subscription is active, subject to RevenueCat&apos;s
                 retention policies
@@ -294,7 +338,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2>10. Security</h2>
+            <h2>11. Security</h2>
             <p>
               All data transmitted to third-party services uses TLS encryption.
               Your ghost hunt data (recordings, photos, notes) stays on your
@@ -303,7 +347,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2>11. Changes to This Policy</h2>
+            <h2>12. Changes to This Policy</h2>
             <p>
               We may update this Privacy Policy from time to time. We will notify
               you of any material changes by posting the new Privacy Policy in
@@ -314,7 +358,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2>12. Contact Us</h2>
+            <h2>13. Contact Us</h2>
             <p>
               If you have questions about this Privacy Policy, please contact us
               at{" "}
